@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form-heading{
+    text-align: center;
+    margin: 0 !important;
+}
+fieldset {
+    background-color: #f1f1f1; 
+}
+  
+  legend {
+    background-color: rgb(31, 31, 58);
+    color: white;
+    padding: 5px 10px;
+  }
+
+.dropdown-custom{
+    height: 40px;
+    padding-left: 10px ;
+    border-radius: 8px;
+    background-color: white ;
+}
+
+.display-none{
+    display: none !important;
+}
+
+.display-block{
+    display: block;
+}
+
+.submit-btn{
+    background-color: rgb(6, 6, 102);;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    height: 40px;
+    width: 25%;
+    margin-top: 2.5rem;
+    margin-bottom: 1.5rem;
+    border-radius: 50px;
+}
+
+.main-heading{
+    font-size: 3rem;
+    font-weight: bolder;
+}
+
+.last-div{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15vh;
+}
+
+.signaturePlace{
+    width: 30%;
+    border-top: 2px solid #202020;
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 10px;
+    color: rgb(6, 6, 102);
+}
